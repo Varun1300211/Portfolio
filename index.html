@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varun's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    body{
+        background-color: rgb(2, 2, 49);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(16, 16, 60);
+    }
+    nav ul{
+        display: flex;
+        justify-content: center; 
+    }
+    nav ul li{
+        list-style: none;
+        margin: 0 23px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover{
+        color: rgb(165, 165, 244);
+        font-size: 1.02rem;
+    }
+    main hr{
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px;  
+    }
+    .left{
+        font-size: 1.5rem;
+    }
+    .firstSection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 35px 0;
+    }
+    .firstSection > div{
+       width: 30%;
+    }
+    .leftSection{
+        font-size: 1.7rem;
+    }
+    .leftSection .buttons{
+        padding: 50px 0; 
+    }
+    .leftSection .btn{
+        padding: 12px;
+        background: #1e2167;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .leftSection .btn:hover{
+        background: rgb(21, 21, 52);
+        padding: 12.5px;
+    }
+    .rightSection img{
+        width: 80%;
+        margin: 50px 0;
+    }
+    .purple{
+        color: rgb(155, 97, 209);
+    }
+    .text-gray{
+        color: gray;
+    }
+    #element{
+        color: rgb(155, 97, 209);
+    }
+    .secondSection{
+     max-width: 80vw;
+     margin: auto;
+     height: 80vh;   
+    }
+    .secondSection h1{
+        font-size: 2rem;;
+    }
+    .secondSection .box{
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+    }
+    .secondSection .vertical{
+        height: 93px; 
+        width: 1px;
+        background-color: white;
+        margin: 0 200px;
+    }
+    .image-top{
+        width: 150px;
+        position: relative;
+        top: -60px;
+        left: -70px;
+    }
+    .image-top1{
+        width: 100px;
+        position: relative;
+        top: -40px;
+        left: -50px;
+    }
+    .image-top2{
+        width: 200px;
+        position: relative;
+        top: -125px;
+        left: -100px;
+    }
+    
+    .vertical-title{
+        position: relative;
+        top: 10px;
+        left: -50px;
+        width: 150px;
+    }
+    .vertical-desc{
+        position: relative;
+        top: 16px;
+        left: -50px;
+        color: gray;
+        width: 150px;
+        font-size: 13px;
+    }
+    .vertical-title1{
+        position: relative;
+        top: 60px;
+        left: -50px;
+        width: 150px;
+    }
+    .vertical-desc1{
+        position: relative;
+        top: 70px;
+        left: -50px;
+        color: gray;
+        width: 150px;
+        font-size: 13px;
+    }
+    .vertical-title2{
+        position: relative;
+        top: -110px;
+        left: -50px;
+        width: 150px;
+    }
+    .vertical-desc2{
+        position: relative;
+        top: -100px;
+        left: -50px;
+        color: gray;
+        width: 150px;
+        font-size: 13px;
+    }
+    footer{
+        background-color: #0b0b1e;
+    }
+    .footer{
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+    }
+    .footer ul{
+        list-style: none;
+    }
+    .footer > div{
+        width: 223px;  
+    }
+    footer .footer-rights{
+        text-align: center;
+        color: gray;
+        padding: 12px 0; 
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Varun's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi, My name is <span class="purple">Varun</span>,
+                <div> I am a Computer Science student and my expertise include</div> 
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn" onclick="window.open('https://drive.google.com/file/d/1hCmwelMSneX-Sjl0u4S6HTuyBAN112au/view')" >Open Resume</button>
+                    <button class="btn" onclick="window.open('https://github.com/Varun1300211')">Github</button>
+                </div>
+            </div>
+            <div class="rightSection"><img src="dev.png" alt=""></div>
+        </section>
+        <hr>
+        <section class="secondSection"><span class="text-gray">What I have done so far</span><h1>Past Experience</h1>
+            <div class="box">
+                <div class="vertical"><img class="image-top" src="BarclaysLogo.png" alt=""><div class="vertical-title">Developer Analyst Summer Intern (June 2023 - August 2023)</div><div class="vertical-desc">Refined API onboarding, enhanced monitoring, documented REST API, reducing lead time. Used Java, Spring Boot, Gradle, MongoDB, and tools like IntelliJ Ultimate, VS Code, and Insomnia.
+
+                </div>
+                </div>
+                <div class="vertical"><img class="image-top1" src="HeroMLogo.png" alt=""><div class="vertical-title1">Information Systems Summer Intern (June 2022 - July 2022)</div><div class="vertical-desc1">Automated entry processes, web-scraping for supplier details, impacting 10+ suppliers. Used Python, Selenium, XPath, BeautifulSoup and tools like Automation Anywhere.  
+                </div></div>
+                <div class="vertical"><img class="image-top2" src="WipeLogo.png" alt=""><div class="vertical-title2">Software Engineer Intern (November 2021 - January 2022)</div><div class="vertical-desc2">Created IT portal, comprising Asset and Content Management Systems, deployed using HTML, CSS, php, MySQL, Bootstrap.. 
+                </div></div>
+                
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="footer">
+        <div class="footer-first">
+            <h3>Varun's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="footer-third">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="footer-fourth">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169;varunsportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['<i>Software Development</i>','<i>Web Development</i>', '<i>Data Science</i>', '<i>Business Analytics</i>', '<i>Finance</i>'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
