@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Varun's Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <style>
-        *{
+      *{
             margin: 0;
             padding: 0;
-        }
+    }
     body{
         background-color: rgb(2, 2, 49);
         color: white;
@@ -56,7 +56,7 @@
         margin: 35px 0;
     }
     .firstSection > div{
-       width: 30%;
+       width: 40%;
     }
     .leftSection{
         font-size: 1.7rem;
@@ -78,7 +78,7 @@
         padding: 12.5px;
     }
     .rightSection img{
-        width: 80%;
+        width: 60%;
         margin: 50px 0;
     }
     .purple{
@@ -191,6 +191,88 @@
         color: gray;
         padding: 12px 0; 
     }
+    footer ul li a:hover{
+        color: rgb(165, 165, 244);
+        font-size: 1.02rem;
+    }
+    a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+    @media screen and (max-width: 1500px) {
+     .box{
+        flex-direction: column;
+     }
+     .firstSection{
+        flex-direction: column-reverse;
+     }
+     .secondSection .vertical{
+        height: unset;
+     }
+     .vertical-title, .vertical-title1, .vertical-title2, .vertical-desc, .vertical-desc1, .vertical-desc2{
+        left: 30px;
+     }
+     .vertical-title2, .vertical-desc2{
+        top: 0px;
+        margin-bottom: 60px;
+     }
+     .vertical-desc2{
+        top: -50px;
+     }
+     .secondSection .box{
+        width: 100vw;
+     }
+     nav{
+        flex-direction: column;
+     }
+     footer{
+       display: none;
+     }
+     .secondSection{
+        height: 171vh;
+     }
+     .leftSection{
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.2rem;
+     }
+     .rightSection img{
+        width: 120%;
+     }
+     .rightSection{
+        width: 200px !important;
+     }
+     .secondSection{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+    .image-top{
+        width: 120px;
+        position: relative;
+        top: 110px;
+        left: -130px;
+    }
+    .image-top1{
+        width: 80px;
+        position: relative;
+        top: 130px;
+        left: -92px;
+    }
+    .image-top2{
+        width: 150px;
+        position: relative;
+        top: 130px;
+        left: -140px;
+    }
+     body{
+        min-width: fit-content;
+     }
+    }
     </style>
 </head>
 <body>
@@ -200,36 +282,33 @@
             <div class="right">
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Services</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Contact Me</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
         <section class="firstSection">
-            <div class="leftSection">Hi, My name is <span class="purple">Varun</span>,
-                <div> I am a Computer Science student and my expertise include</div> 
+            <div class="leftSection"><div>Hi, My name is <span class="purple">Varun</span>,</div>
+                <div> I am a Computer Science student</div><div> and my expertise include</div> 
                 <span id="element"></span>
                 <div class="buttons">
                     <button class="btn" onclick="window.open('https://drive.google.com/file/d/1hCmwelMSneX-Sjl0u4S6HTuyBAN112au/view')" >Open Resume</button>
                     <button class="btn" onclick="window.open('https://github.com/Varun1300211')">Github</button>
                 </div>
             </div>
-            <div class="rightSection"><img src="dev.png" alt=""></div>
+            <div class="rightSection"><img src="img/dev.png" alt=""></div>
         </section>
         <hr>
         <section class="secondSection"><span class="text-gray">What I have done so far</span><h1>Past Experience</h1>
             <div class="box">
-                <div class="vertical"><img class="image-top" src="BarclaysLogo.png" alt=""><div class="vertical-title">Developer Analyst Summer Intern (June 2023 - August 2023)</div><div class="vertical-desc">Refined API onboarding, enhanced monitoring, documented REST API, reducing lead time. Used Java, Spring Boot, Gradle, MongoDB, and tools like IntelliJ Ultimate, VS Code, and Insomnia.
-
+                <div class="vertical"><img class="image-top" src="img/BarclaysLogo.png" alt=""><div class="vertical-title">Developer Analyst Summer Intern (June 2023 - August 2023)</div><div class="vertical-desc">Refined API onboarding, enhanced monitoring, documented REST API, reducing lead time. Used Java, Spring Boot, Gradle, MongoDB, and tools like IntelliJ Ultimate, VS Code, and Insomnia.
                 </div>
                 </div>
-                <div class="vertical"><img class="image-top1" src="HeroMLogo.png" alt=""><div class="vertical-title1">Information Systems Summer Intern (June 2022 - July 2022)</div><div class="vertical-desc1">Automated entry processes, web-scraping for supplier details, impacting 10+ suppliers. Used Python, Selenium, XPath, BeautifulSoup and tools like Automation Anywhere.  
+                <div class="vertical"><img class="image-top1" src="img/HeroMLogo.png" alt=""><div class="vertical-title1">Information Systems Summer Intern (June 2022 - July 2022)</div><div class="vertical-desc1">Automated entry processes, web-scraping for supplier details, impacting 10+ suppliers. Used Python, Selenium, XPath, BeautifulSoup and tools like Automation Anywhere.  
                 </div></div>
-                <div class="vertical"><img class="image-top2" src="WipeLogo.png" alt=""><div class="vertical-title2">Software Engineer Intern (November 2021 - January 2022)</div><div class="vertical-desc2">Created IT portal, comprising Asset and Content Management Systems, deployed using HTML, CSS, php, MySQL, Bootstrap.. 
+                <div class="vertical"><img class="image-top2" src="img/WipeLogo.png" alt=""><div class="vertical-title2">Software Engineer Intern (November 2021 - January 2022)</div><div class="vertical-desc2">Created IT portal, comprising Asset and Content Management Systems, deployed using HTML, CSS, php, MySQL, Bootstrap. 
                 </div></div>
                 
             </div>
@@ -243,28 +322,22 @@
         </div>
         <div class="footer-second">
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li><a href="/">Home</a></li>
             </ul>
         </div>
         <div class="footer-third">
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li><a href="project.html">Projects</a></li>
             </ul>
         </div>
         <div class="footer-fourth">
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
         </div>
         <div class="footer-rights">
-            Copyright &#169;varunsportfolio.com | All rights reserved
+            Copyright &#169;varunkrgportfolio.netlify.app | All rights reserved
         </div>
     </footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>

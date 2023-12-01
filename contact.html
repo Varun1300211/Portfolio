@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varun's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+      *{
+            margin: 0;
+            padding: 0;
+    }
+    body{
+        background-color: rgb(2, 2, 49);
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(16, 16, 60);
+    }
+    nav ul{
+        display: flex;
+        justify-content: center; 
+    }
+    nav ul li{
+        list-style: none;
+        margin: 0 23px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover{
+        color: rgb(165, 165, 244);
+        font-size: 1.02rem;
+    }
+    .left{
+        font-size: 1.5rem;
+    }
+    .heading{
+        font-size: 1.5rem;
+    }
+    .firstSection{       
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 35px 0;
+    }
+    .heading1{
+        font-size: 1.5rem;
+    }
+    .secondSection{       
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 35px 0;
+    }
+    .heading2{
+        font-size: 1.5rem;
+    }
+    .thirdSection{       
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 35px 0;
+    }
+    .content{       
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 35px 0;
+    }
+    main hr{
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px;  
+    }
+    .firstSection .heading .gmail-icon{
+        width: 50px;
+        position: relative;
+        cursor: pointer;
+    }
+    .firstSection .heading .gmail-icon:hover{
+        width: 52px;
+        position: relative;
+        cursor: pointer;
+    }
+    .secondSection .heading1 .linkedin-icon{
+        width: 50px;
+        position: relative;
+        cursor: pointer;
+    }
+    .secondSection .heading1 .linkedin-icon:hover{
+        width: 52px;
+        position: relative;
+        cursor: pointer;
+    }
+    .thirdSection .heading2 .github-icon{
+        width: 50px;
+        position: relative;
+        cursor: pointer;
+    }
+    .thirdSection .heading2 .github-icon:hover{
+        width: 52px;
+        position: relative;
+        cursor: pointer;
+    }
+    footer{
+        background-color: #0b0b1e;
+    }
+    .footer{
+        display: flex;
+        padding: 23px 200px;
+        justify-content: space-evenly;
+    }
+    .footer ul{
+        list-style: none;
+    }
+    .footer > div{
+        width: 223px;  
+    }
+    footer .footer-rights{
+        text-align: center;
+        color: gray;
+        padding: 12px 0; 
+    }
+    footer ul li a:hover{
+        color: rgb(165, 165, 244);
+        font-size: 1.02rem;
+    }
+    a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+ @media screen and (max-width: 1500px) {
+    .box{
+        flex-direction: column;
+     }
+     nav{
+        flex-direction: column;
+     }
+     footer{
+       display: none;
+     }
+ }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Varun's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="firstSection">
+            <div class="heading">Contact me on <a href="mailto:varunkumarg246@gmail.com"><img class="gmail-icon" src="img/gmail.webp" ></a></div></div>
+
+        <div class="content">Mail ID - varunkumarg246@gmail.com</div>
+        <hr>
+        <div class="secondSection"><div class="heading1">Connect with me on <a href="https://www.linkedin.com/in/varun-kumar-gupta-400860220/"><img class="linkedin-icon" src="img/linkedin.png"></a></div>
+    </div>
+    <div class="content">LinkedIn ID - www.linkedin.com/in/varun-kumar-gupta-400860220/</div></div>
+    <hr>
+    <div class="thirdSection"><div class="heading2">Collab with me on <a href="https://github.com/Varun1300211"><img class="github-icon" src="img/github.webp"></a></div>
+</div>
+<div class="content">Github ID - github.com/Varun1300211/</div></div>
+<hr>
+    </main>
+    <footer>
+        <div class="footer">
+        <div class="footer-first">
+            <h3>Varun's Developer Portfolio</h3>
+        </div>
+        <div class="footer-second">
+            <ul>
+                <li><a href="/">Home</a></li>
+            </ul>
+        </div>
+        <div class="footer-third">
+            <ul>
+                <li><a href="project.html">Projects</a></li>
+            </ul>
+        </div>
+        <div class="footer-fourth">
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169;varunkrgportfolio.netlify.app | All rights reserved
+        </div>
+    </footer>
+</body>
+</html>
