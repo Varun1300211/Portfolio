@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="img/V (5).png" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Varun's Portfolio</title>
@@ -13,7 +14,7 @@
             padding: 0;
     }
     body{
-        background-color: rgb(2, 2, 49);
+        background-color: rgb(23, 23, 29);
         color: white;
         font-family: 'Poppins', sans-serif;
     }
@@ -22,7 +23,7 @@
         justify-content: space-around;
         align-items: center;
         height: 80px;
-        background-color: rgb(16, 16, 60);
+        background-color: rgb(1, 1, 1);
     }
     nav ul{
         display: flex;
@@ -37,7 +38,7 @@
         color: white;
     }
     nav ul li a:hover{
-        color: rgb(165, 165, 244);
+        color: gold;
         font-size: 1.02rem;
     }
     main hr{
@@ -48,6 +49,7 @@
     }
     .left{
         font-size: 1.5rem;
+        
     }
     .firstSection{
         display: flex;
@@ -64,31 +66,35 @@
     .leftSection .buttons{
         padding: 50px 0; 
     }
-    .leftSection .btn{
-        padding: 12px;
-        background: #1e2167;
-        color: white;
-        border: 2px solid white;
-        border-radius: 6px;
-        font-size: 20px;
-        cursor: pointer;
+    .leftSection .btn-blog{
+    margin-right: 10px;
+    padding: 20px 50px;
+    color: #ffffff;
+    background-color: black;
+    border-color: gold;
+    border-radius:3rem;
+    margin-bottom:10px;
+    box-shadow: 1px 1px 2px black, 0 0 10px gold, 0 0 5px goldenrod;
+    text-shadow: 1px 1px 2px white, 0 0 25px blue, 0 0 5px darkblue;
+    transition: all 0.3s ease;
     }
-    .leftSection .btn:hover{
-        background: rgb(21, 21, 52);
-        padding: 12.5px;
+    .leftSection .btn-blog:hover{
+    background: gold;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    transform: scale(1.05); 
     }
     .rightSection img{
         width: 60%;
         margin: 50px 0;
     }
     .purple{
-        color: rgb(155, 97, 209);
+        color: gold;
     }
     .text-gray{
         color: gray;
     }
     #element{
-        color: rgb(155, 97, 209);
+        color: gold;
     }
     .secondSection{
      max-width: 80vw;
@@ -128,6 +134,12 @@
         position: relative;
         top: -125px;
         left: -100px;
+    }
+    .image-top3{
+        width: 130px;
+        position: relative;
+        top: 0px;
+        left: -230px;
     }
     
     .vertical-title{
@@ -173,7 +185,7 @@
         font-size: 13px;
     }
     footer{
-        background-color: #0b0b1e;
+        background-color: #000000;
     }
     .footer{
         display: flex;
@@ -192,7 +204,7 @@
         padding: 12px 0; 
     }
     footer ul li a:hover{
-        color: rgb(165, 165, 244);
+        color: gold;
         font-size: 1.02rem;
     }
     a:-webkit-any-link {
@@ -294,11 +306,11 @@
                 <div> I am a Computer Science student</div><div> and my expertise include</div> 
                 <span id="element"></span>
                 <div class="buttons">
-                    <button class="btn" onclick="window.open('https://drive.google.com/file/d/1lsfGRERjm7yC-rwSnX3ozIcqz7z9PzBC/view')" >Open Resume</button>
-                    <button class="btn" onclick="window.open('https://github.com/Varun1300211')">Github</button>
+                    <button class="btn-blog" onclick="window.open('https://drive.google.com/drive/folders/1bo9LHYcXV2zYocFY7uQq-EDm51Za_2G3/view')" >Open Resume</button>
+                    <button class="btn-blog" onclick="window.open('https://github.com/Varun1300211')">Github</button>
                 </div>
             </div>
-            <div class="rightSection"><img src="img/dev.png" alt=""></div>
+            <div class="rightSection"><img src="img/laptop wave.png" alt=""></div>
         </section>
         <hr>
         <section class="secondSection"><span class="text-gray">What I have done so far</span><h1>Past Experience</h1>

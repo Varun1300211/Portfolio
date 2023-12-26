@@ -14,7 +14,7 @@
             padding: 0;
     }
     body{
-        background-color: rgb(2, 2, 49);
+        background-color: rgb(23, 23, 29);
         color: white;
         font-family: 'Poppins', sans-serif;
     }
@@ -23,7 +23,7 @@
         justify-content: space-around;
         align-items: center;
         height: 80px;
-        background-color: rgb(16, 16, 60);
+        background-color: rgb(1, 1, 1);
     }
     nav ul{
         display: flex;
@@ -38,14 +38,101 @@
         color: white;
     }
     nav ul li a:hover{
-        color: rgb(165, 165, 244);
+        color: gold;
         font-size: 1.02rem;
     }
     .left{
         font-size: 1.5rem;
     }
+    .projects-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 20px;
+    }
+
+    .project-card {
+        width: 300px;
+        margin: 20px;
+        padding: 15px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .project-card img {
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .project-card h2 {
+        color: black;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .project-card p {
+        color: black;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .project-card a {
+        color: black !important;
+        display: block;
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    .project-card a:hover {
+        color: #f90 !important;
+    }
+
+    .project-card1 {
+        width: 300px;
+        margin: 20px;
+        padding: 15px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .project-card1 img {
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .project-card1 h2 {
+        color: black;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .project-card1 p {
+        color: black;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .project-card1 a {
+        color: black !important;
+        display: block;
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    .project-card1 a:hover {
+        color: #f90 !important;
+    }
+
     footer{
-        background-color: #0b0b1e;
+        background-color: #000000;
     }
     .footer{
         display: flex;
@@ -64,7 +151,7 @@
         padding: 12px 0; 
     }
     footer ul li a:hover{
-        color: rgb(165, 165, 244);
+        color: gold;
         font-size: 1.02rem;
     }
     a:-webkit-any-link {
@@ -98,6 +185,48 @@
             </div>
         </nav>
     </header>
+    <main class="projects-container">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <img src="img/IPL.png" alt="Project 1 Screenshot">
+          <h2>IPL Score Predictor</h2>
+          <p> Developed a Streamlit web application that predicts the total runs between IPL teams based on current runs and wickets, aiding
+            cricket enthusiasts in real-time match analysis.</p>
+          <a href="https://github.com/Varun1300211/IPLScorePredictor" target="_blank">GitHub Repo</a>
+        </div>
+        
+        <!-- Project 2  -->
+        <div class="project-card">
+            <img src="img/decrypto.png" alt="Project 2 Screenshot">
+            <h2>Decrypto</h2>
+            <p>Developed a python based application that detects and decrypts 15+ common ciphers. Looks for English words among the possible outputs by matching words to filter out correct possible ciphers.</p>
+            <a href="https://github.com/Varun1300211/Decrypto" target="_blank">GitHub Repo</a>
+        </div>
+        <!-- Project 3 -->
+        <div class="project-card">
+            <img src="img/Shippr.png" alt="Project 3 Screenshot">
+            <h2>Shippr</h2>
+            <p>Developed a demo web app on ecommerce, where both customer can buy and admin can sell and analyze their products in MERN stack.  Made the SRS of the app, made test cases of the web app manually and then did automated testing of the web application through Selenium (in java).</p>
+            <a href="https://github.com/Varun1300211/Shippr" target="_blank">GitHub Repo</a>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card1">
+            <img src="img/iDAS.png" alt="Project 4 Screenshot">
+            <h2>iDAS</h2>
+            <p>Developed a deep learning model in YOLOv5 and YOLOv7 algorithm which are based on the PyTorch framework that can detect
+                various traffic sign boards and traffic signals.</p>
+            <a href="https://github.com/Varun1300211/iDAS" target="_blank">GitHub Repo</a>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card">
+            <img src="img/ManageX.png" alt="Project 5 Screenshot">
+            <h2>ManageX</h2>
+            <p> Developed a production-ready portal for managing IT department of a company. It is composed of majorly 2 sub-systems which include Asset Management System and Content Management System.</p>
+            <a href="https://github.com/Varun1300211/ManageX" target="_blank">GitHub Repo</a>
+        </div>
+      </main>
     <footer>
         <div class="footer">
         <div class="footer-first">
