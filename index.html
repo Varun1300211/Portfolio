@@ -24,6 +24,7 @@
         align-items: center;
         height: 80px;
         background-color: rgb(1, 1, 1);
+        min-width: 100vw;
     }
     nav ul{
         display: flex;
@@ -106,9 +107,9 @@
     }
     .secondSection .box{
         background: white;
-        width: 80vw;
+        width: 100vw;
         height: 2px;
-        margin: 56px 0;
+        margin: 150px 0;
         display: flex;
     }
     .secondSection .vertical{
@@ -136,10 +137,11 @@
         left: -100px;
     }
     .image-top3{
-        width: 130px;
+        height: 110px;
+        width: 90px;
         position: relative;
-        top: 0px;
-        left: -230px;
+        top: -120px;
+        left: -45px;
     }
     
     .vertical-title{
@@ -184,13 +186,29 @@
         width: 150px;
         font-size: 13px;
     }
+    .vertical-title3{
+        position: relative;
+        top: -15px;
+        left: -50px;
+        width: 150px;
+    }
+    .vertical-desc3{
+        position: relative;
+        top: -10px;
+        left: -50px;
+        color: gray;
+        width: 150px;
+        font-size: 13px;
+    }
     footer{
         background-color: #000000;
+        min-width: 100vw;
     }
     .footer{
         display: flex;
         padding: 23px 122px;
         justify-content: space-evenly;
+        width: 100%;
     }
     .footer ul{
         list-style: none;
@@ -263,23 +281,24 @@
         flex-direction: column;
         align-items: center;
      }
-    .image-top{
-        width: 120px;
+     .image-top1{
+        width: 100px;
         position: relative;
-        top: 110px;
-        left: -130px;
-    }
-    .image-top1{
-        width: 80px;
-        position: relative;
-        top: 130px;
-        left: -92px;
+        top: -40px;
+        left: -50px;
     }
     .image-top2{
-        width: 150px;
+        width: 200px;
         position: relative;
-        top: 130px;
-        left: -140px;
+        top: -125px;
+        left: -100px;
+    }
+    .image-top3{
+        height: 110px;
+        width: 90px;
+        position: relative;
+        top: -120px;
+        left: -45px;
     }
      body{
         min-width: fit-content;
@@ -306,7 +325,7 @@
                 <div> I am a Computer Science student</div><div> and my expertise include</div> 
                 <span id="element"></span>
                 <div class="buttons">
-                    <button class="btn-blog" onclick="window.open('https://drive.google.com/file/d/16stRp2wgz4GBMjraOPn6nOXU-DzFlypr/view?usp=drive_link')" >Open Resume</button>
+                    <button class="btn-blog" onclick="window.open('https://drive.google.com/file/d/11o7ZvmrmF-BUONn7MVK5B9L5A0qZYuny/view?usp=sharing')" >Open Resume</button>
                     <button class="btn-blog" onclick="window.open('https://github.com/Varun1300211')">Github</button>
                 </div>
             </div>
@@ -315,6 +334,9 @@
         <hr>
         <section class="secondSection"><span class="text-gray">What I have done so far</span><h1>Past Experience</h1>
             <div class="box">
+                <div class="vertical"><img class="image-top3" src="img/JKPaperLogo.png" alt=""><div class="vertical-title3">Data Science Intern (January 2024 - June 2024)</div><div class="vertical-desc3">Supported digital transformation by automating tasks, building portals and exploring new technologies which led to company’s digital transformation initiative (LEAP 200). Used Python, Streamlit, MySQL, MS Power Platform, Reflex/pynecone.
+                </div>
+                </div>
                 <div class="vertical"><img class="image-top" src="img/BarclaysLogo.png" alt=""><div class="vertical-title">Developer Analyst Summer Intern (June 2023 - August 2023)</div><div class="vertical-desc">Refined API onboarding, enhanced monitoring, documented REST API, reducing lead time. Used Java, Spring Boot, Gradle, MongoDB, and tools like IntelliJ Ultimate, VS Code, and Insomnia.
                 </div>
                 </div>
@@ -326,7 +348,7 @@
             </div>
         </section>
     </main>
-    
+    <br><br><br><br><br><br><br><br>
     <footer>
         <br><br><br><br>
         <div class="footer">
