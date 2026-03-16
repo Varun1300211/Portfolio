@@ -7,7 +7,7 @@ export const contactLinks: ContactLink[] = [
     value: "varunkumarg246@gmail.com",
     href: "mailto:varunkumarg246@gmail.com",
     icon: {
-      src: "/img/gmail.webp",
+      src: "/img/contact-email.png",
       alt: "Gmail icon"
     }
   },
@@ -27,7 +27,7 @@ export const contactLinks: ContactLink[] = [
     value: "github.com/Varun1300211",
     href: "https://github.com/Varun1300211",
     icon: {
-      src: "/img/github.webp",
+      src: "/img/contact-github.png",
       alt: "GitHub icon"
     }
   }
