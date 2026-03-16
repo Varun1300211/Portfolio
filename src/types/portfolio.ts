@@ -73,3 +73,9 @@ export type ContactLink = {
     alt: string;
   };
 };
+
+export type TechStackCategory = {
+  id: string;
+  title: string;
+  skills: string[];
+};

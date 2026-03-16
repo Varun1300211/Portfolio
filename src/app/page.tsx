@@ -4,6 +4,7 @@ import { HeroSection } from "@/components/hero-section";
 import { ProjectsSection } from "@/components/projects-section";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
+import { TechStackSection } from "@/components/tech-stack-section";
 
 export default function HomePage() {
   return (
@@ -17,6 +18,7 @@ export default function HomePage() {
       <SiteHeader />
       <main id="main-content" tabIndex={-1}>
         <HeroSection />
+        <TechStackSection />
         <ExperienceSection />
         <ProjectsSection />
         <ContactSection />

@@ -23,6 +23,7 @@ export const personalInfo: PersonalInfo = {
   },
   navItems: [
     { href: "#hero", label: "Home" },
+    { href: "#tech-stack", label: "Tech Stack" },
     { href: "#experience", label: "Experience" },
     { href: "#projects", label: "Projects" },
     { href: "#contact", label: "Contact" }

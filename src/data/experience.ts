@@ -50,7 +50,7 @@ export const experienceEntries: ExperienceEntry[] = [
   },
   {
     id: "barclays-developer-analyst-summer-intern",
-    company: "Barclays | Knutsford, United Kingdom",
+    company: "Barclays Execution Services Ltd. | Knutsford, United Kingdom",
     role: "Developer Analyst Summer Intern",
     period: "June 2023 - August 2023",
     description:
