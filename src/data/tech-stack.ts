@@ -9,7 +9,7 @@ export const techStackCategories: TechStackCategory[] = [
   {
     id: "databases-and-warehousing",
     title: "Databases & Warehousing",
-    skills: ["MySQL", "MongoDB", "MSSQL", "Teradata", "Databricks"]
+    skills: ["MySQL", "PostgreSQL", "MongoDB", "Redis", "MSSQL", "Teradata", "Databricks"]
   },
   {
     id: "backend-development",

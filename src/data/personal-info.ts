@@ -30,7 +30,7 @@ export const personalInfo: PersonalInfo = {
   ],
   heroLinks: [
     {
-      href: "https://drive.google.com/file/d/1KuTtRc-hv6w2Y8Ap1zg45NoJyBKV2Qek/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1nJW-7YqwYJg8KLV7y5E4y3UJhuEktBtB/view?usp=sharing",
       label: "View Resume",
       variant: "primary"
     },

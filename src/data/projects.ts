@@ -2,16 +2,17 @@ import type { Project } from "@/types/portfolio";
 
 export const projects: Project[] = [
   {
-    id: "ipl-score-predictor",
-    title: "IPL Score Predictor",
+    id: "gatekeeper",
+    title: "GateKeeper",
     shortDescription:
-      "Built a match-state prediction workflow that estimates innings totals from live score inputs. Combined model inference, data preprocessing, and a Streamlit interface for fast, readable analysis during play.",
+      "Built a low-latency feature flag and dynamic configuration platform using a control plane and data plane architecture. Implemented deterministic rollouts, Redis-backed evaluation caching, RBAC, audit logging, and SDK-side local caching to model production platform behavior.",
     image: {
-      src: "/img/IPL.png",
-      alt: "IPL Score Predictor screenshot"
+      src: "/img/GateKeeper.png",
+      alt: "GateKeeper project screenshot"
     },
-    techStack: ["Python", "Streamlit", "scikit-learn", "Pandas"],
-    githubLink: "https://github.com/Varun1300211/IPLScorePredictor"
+    techStack: ["Java", "Spring Boot", "PostgreSQL", "Redis", "React"],
+    githubLink: "https://github.com/Varun1300211/gatekeeper",
+    liveDemoLink: "https://gatekeeper-t5gd.netlify.app"
   },
   {
     id: "decrypto",

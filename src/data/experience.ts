@@ -7,24 +7,32 @@ export const experienceEntries: ExperienceEntry[] = [
     role: "Technology Developer",
     period: "August 2024 - Present",
     description:
-      "Building backend, AI/ML, and platform automation solutions across customer communications and loan origination systems in an enterprise engineering environment.",
+      "Working across customer communications and wholesale lending platforms on backend services, CI/CD, observability, performance testing, and cloud-native deployment workflows in an enterprise engineering environment.",
     technologies: [
       "Java",
       "Spring Boot",
       "Python",
       "FastAPI",
       "Docker",
+      "Kubernetes",
       "Helm",
       "OpenShift",
       "GitLab CI/CD",
+      "Grafana",
+      "MSSQL",
+      "Teradata",
+      "SonarQube",
+      "Veracode",
       "Databricks",
       "AWS"
     ],
     highlights: [
-      "Designed backend PoCs for natural-language-to-SQL workflows using Databricks and enterprise data platforms.",
-      "Built FastAPI services and automation for non-production environment scaling and internal engineering workflows.",
-      "Led repository migration from Bitbucket to GitLab and modernized CI/CD delivery pipelines.",
-      "Developed MLOps and RAG-based solutions for ML deployment, incident analysis, and internal analytics tooling."
+      "Designed health, security, and cost dashboards tracking latency, throughput, concurrency, and traffic metrics for platform services.",
+      "Built and maintained GitLab CI/CD pipelines with automated quality checks using unit tests, integration tests, JMeter, SonarQube, and Veracode.",
+      "Developed containerized deployment workflows with Docker, Helm, and OpenShift for scalable service and ML delivery.",
+      "Built a FastAPI-based automation service to scale non-production Kubernetes environments, reducing infrastructure costs by 20%.",
+      "Contributed to Java 21 and Spring Boot 3 microservice upgrades and document-generation workflows integrated with AWS S3.",
+      "Delivered ML-assisted incident triage and monitoring automation that reduced manual effort by 180+ hours per month."
     ],
     image: {
       src: "/img/BarclaysLogo.png",
