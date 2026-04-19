@@ -14,7 +14,7 @@ export const techStackCategories: TechStackCategory[] = [
   {
     id: "backend-development",
     title: "Backend Development",
-    skills: ["Spring Boot", "FastAPI", "Flask", "NodeJS", "ExpressJS"]
+    skills: ["Spring Boot", "FastAPI", "Flask", "NodeJS", "ExpressJS", "Kafka"]
   },
   {
     id: "ai-ml-and-mlops",

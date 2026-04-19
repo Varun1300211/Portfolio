@@ -5,12 +5,12 @@ export const projects: Project[] = [
     id: "gatekeeper",
     title: "GateKeeper",
     shortDescription:
-      "Built a low-latency feature flag and dynamic configuration platform using a control plane and data plane architecture. Implemented deterministic rollouts, Redis-backed evaluation caching, RBAC, audit logging, and SDK-side local caching to model production platform behavior.",
+      "Architected a production-style feature flag platform with separate control and cache-backed data planes. Built deterministic rollouts, Redis evaluation caching, Kafka-backed config-change events, RBAC, audit logging, rate limiting, and a Java SDK simulator.",
     image: {
       src: "/img/GateKeeper.png",
       alt: "GateKeeper project screenshot"
     },
-    techStack: ["Java", "Spring Boot", "PostgreSQL", "Redis", "React"],
+    techStack: ["Java", "Spring Boot", "PostgreSQL", "Redis", "Kafka", "React"],
     githubLink: "https://github.com/Varun1300211/gatekeeper",
     liveDemoLink: "https://gatekeeper-t5gd.netlify.app"
   },
